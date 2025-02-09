@@ -1,0 +1,40 @@
+create database credit_card_fraud_detection;
+use credit_card_fraud_detection;
+
+drop table if exists credit_card_transactions ;
+CREATE table credit_card_transactions (
+    Time INT NOT NULL, 
+    V1 DOUBLE NOT NULL,
+    V2 DOUBLE NOT NULL,
+    V3 DOUBLE NOT NULL,
+    V4 DOUBLE NOT NULL,
+    V5 DOUBLE NOT NULL,
+    V6 DOUBLE NOT NULL,
+    V7 DOUBLE NOT NULL,
+    V8 DOUBLE NOT NULL,
+    V9 DOUBLE NOT NULL,
+    V10 DOUBLE NOT NULL,
+    V11 DOUBLE NOT NULL,
+    V12 DOUBLE NOT NULL,
+    V13 DOUBLE NOT NULL,
+    V14 DOUBLE NOT NULL,
+    V15 DOUBLE NOT NULL,
+    V16 DOUBLE NOT NULL,
+    V17 DOUBLE NOT NULL,
+    V18 DOUBLE NOT NULL,
+    V19 DOUBLE NOT NULL,
+    V20 DOUBLE NOT NULL,
+    V21 DOUBLE NOT NULL,
+    V22 DOUBLE NOT NULL,
+    V23 DOUBLE NOT NULL,
+    V24 DOUBLE NOT NULL,
+    V25 DOUBLE NOT NULL,
+    V26 DOUBLE NOT NULL,
+    V27 DOUBLE NOT NULL,
+    V28 DOUBLE NOT NULL,
+    Amount DECIMAL(10,2) NOT NULL, 
+    Class int NOT NULL  
+);
+
+ALTER TABLE credit_card_transactions 
+ADD COLUMN row_id INT AUTO_INCREMENT PRIMARY KEY;
