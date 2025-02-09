@@ -10,7 +10,7 @@ This project focuses on **Credit Card Fraud Detection** using **SQL-based analys
 ✅ Optimize SQL queries for faster fraud detection.<br>
 ✅ Perform in-depth SQL analysis on fraudulent transactions.
 
-* **🛠️ Technologies Used**
+**🛠️ Technologies Used**
 * **SQL (MySQL Workbench)** – Data storage, queries, and fraud detection analysis.
 
 **📊 Dataset Details**
