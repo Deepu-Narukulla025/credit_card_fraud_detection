@@ -16,14 +16,14 @@ This project focuses on **Credit Card Fraud Detection** using **SQL-based analys
 **📊 Dataset Details**
 - **Source**: Kaggle - Credit Card Fraud Detection
 - **Columns:**
-    - **`Time`** &ndash; Time elapsed from the first transaction.
-    - **`V1 to V28`** &ndash; Anonymized transaction features.
-    - **`Amount`** &ndash; Transaction amount.
-    - **`Class`** &ndash; **0 (Normal)**, **1 (Fraudulent)**.
+    - **`Time`**  &ndash;  Time elapsed from the first transaction.
+    - **`V1 to V28`**  &ndash;  Anonymized transaction features.
+    - **`Amount`**  &ndash;  Transaction amount.
+    - **`Class`**  &ndash;  **0 (Normal)**, **1 (Fraudulent)**.
 
 **🔍 SQL Analysis & Fraud Detection Queries**
-**Key SQL Queries**:
-✔️ Identifying **high-value fraud transactions**.
-✔️ Detecting **frequent fraud patterns** in transactions.
-✔️ Analyzing **peak fraud transaction times**.
+**Key SQL Queries**:<br>
+✔️ Identifying **high-value fraud transactions**.<br>
+✔️ Detecting **frequent fraud patterns** in transactions.<br>
+✔️ Analyzing **peak fraud transaction times**.<br>
 ✔️ **Optimizing SQL queries** for faster fraud detection.
