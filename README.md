@@ -1,17 +1,16 @@
 # **credit_card_fraud_detection**
-**🚀 SQL-based Credit Card Fraud Detection using Kaggle dataset**
 
 ## 📌 Project Overview  
-This project focuses on **Credit Card Fraud Detection** using **SQL-based analysis**. We analyze real anonymized transaction data to detect fraud patterns and optimize SQL queries for better fraud detection.  
+This project focuses on **SQL-based fraud detection** using a modified version of the **Kaggle Credit Card Fraud Detection dataset**. It analyzes transaction data to identify fraud patterns and optimize SQL queries for efficient fraud detection. 
 
 ## 📂 Repository Structure  
 📜 **README.md** - Project details and SQL analysis.  
 📜 **fraud_detection_queries.sql** - Optimized SQL queries for fraud detection.  
-📜 **create_table.sql** - SQL script to create the table.  
+📜 **create_table.sql** - SQL script to create database tables.  
 📜 **sample_data.sql** - Sample fraud and non-fraud transactions.  
-📜 **dataset.csv** - **Modified version** of the original dataset ([Source](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)).  
+📜 **dataset.csv** - Modified subset of the original dataset ([Source](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)).
 
-## 🔍 Goals of this Project  
+## 🔍 Project  Goals
 ✅ Identify fraud patterns in transaction data.  
 ✅ Optimize SQL queries for faster fraud detection.  
 ✅ Perform in-depth SQL analysis on fraudulent transactions.  
